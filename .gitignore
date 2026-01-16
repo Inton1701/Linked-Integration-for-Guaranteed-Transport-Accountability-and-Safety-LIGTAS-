@@ -13,3 +13,8 @@ firestore.rules
 public
 functions
 nul
+.firebaserc
+database.rules.json
+firabase.js
+firebase-function.js
+schema
