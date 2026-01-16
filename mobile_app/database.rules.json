@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "drivers": {
+      "$deviceId": {
+        ".read": true,
+        ".write": "auth != null"
+      }
+    },
+    "scans": {
+      ".read": "auth != null",
+      ".write": true,
+      "$scanId": {
+        ".validate": "newData.hasChildren(['deviceId', 'rfid', 'status', 'timestamp'])"
+      }
+    },
+    "users": {
+      "$userId": {
+        ".read": "auth != null && auth.uid == $userId",
+        ".write": "auth != null && auth.uid == $userId"
+      }
+    },
+    "devices": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "rfidCards": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
