@@ -53,8 +53,8 @@ String apSSID = "ESP32-RFID";
 String apPassword = "12345678";
 
 // Firebase Settings
-const String FIREBASE_PROJECT_ID = "studious-bit-420613";
-const String FIREBASE_API_KEY = "AIzaSyAge9lFaqLvPGVo_t6hymfis4FP_ESZXFc";
+const String FIREBASE_PROJECT_ID = "secret";
+const String FIREBASE_API_KEY = "secret";
 String deviceID = "DVC0001";
 
 // RFID Tracking

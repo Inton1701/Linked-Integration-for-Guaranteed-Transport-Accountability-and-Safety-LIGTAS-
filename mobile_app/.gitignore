@@ -31,3 +31,18 @@ ios
 # Environment
 .env
 .env.local
+
+# Firebase-related files
+google-services.json
+firebaserc
+auth-key.json
+firebase.json
+firestore.indexes.json
+firestore.rules
+public
+functions
+.firebaserc
+database.rules.json
+firabase.js
+firebase-function.js
+schema
